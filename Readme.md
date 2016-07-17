@@ -1,0 +1,11 @@
+hyperterm-oceanic-next
+========================
+
+[Hyperterm] theme based on [Oceanic Next theme]
+
+How to use
+----------
+
+Add `hyperterm-oceanic-next` to `plugins` in `~/.hyperterm.js`.
+
+[Hyperterm]: https://hyperterm.org/

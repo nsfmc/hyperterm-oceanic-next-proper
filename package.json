@@ -1,0 +1,20 @@
+{
+  "name": "hyperterm-oceanic-next",
+  "version": "1.0.0",
+  "description": "Oceanic Next Theme For Hyper Term",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hyperterm",
+    "oceanic",
+    "next",
+    "oceanic-next",
+    "theme",
+    "hyper",
+    "term"
+  ],
+  "author": "Michael Farrell",
+  "license": "MIT"
+}
