@@ -2,7 +2,7 @@
 1 verbose cli [ '/Users/Mikeysax/.nvm/versions/node/v6.3.0/bin/node',
 1 verbose cli   '/Users/Mikeysax/.nvm/versions/node/v6.3.0/bin/npm',
 1 verbose cli   'publish' ]
-2 info using npm@3.10.3
+2 info using npm@3.10.5
 3 info using node@v6.3.0
 4 verbose publish [ '.' ]
 5 silly cache add args [ '.', null ]
@@ -33,6 +33,9 @@
 21 silly publish   version: '1.0.0',
 21 silly publish   description: 'Oceanic Next Theme For Hyper Term',
 21 silly publish   main: 'index.js',
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/Mikeysax/hyperterm-oceanic-next.git' },
 21 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
 21 silly publish   keywords:
 21 silly publish    [ 'hyperterm',
@@ -44,11 +47,13 @@
 21 silly publish      'term' ],
 21 silly publish   author: { name: 'Michael Farrell' },
 21 silly publish   license: 'MIT',
-21 silly publish   readme: 'hyperterm-oceanic-next\n========================\n\n[Hyperterm] theme based on [Oceanic Next theme]\n\nHow to use\n----------\n\nAdd `hyperterm-oceanic-next` to `plugins` in `~/.hyperterm.js`.\n\n[Hyperterm]: https://hyperterm.org/\n',
+21 silly publish   readme: 'hyperterm-oceanic-next\n========================\n\n[Hyperterm] theme based on [Oceanic Next theme]\n\nHow to use\n----------\n\nAdd `hyperterm-oceanic-next` to `plugins` in `~/.hyperterm.js`.\n\n[Hyperterm]: https://hyperterm.org/\n[Github]: https://github.com/Mikeysax/hyperterm-oceanic-next\n',
 21 silly publish   readmeFilename: 'Readme.md',
-21 silly publish   gitHead: '23878b6888b6d002bb1351d8bbba59496e4d6dba',
+21 silly publish   gitHead: '1044353535f0e1c03a0c8bf5fc36302a1a5a86b2',
+21 silly publish   bugs: { url: 'https://github.com/Mikeysax/hyperterm-oceanic-next/issues' },
+21 silly publish   homepage: 'https://github.com/Mikeysax/hyperterm-oceanic-next#readme',
 21 silly publish   _id: 'hyperterm-oceanic-next@1.0.0',
-21 silly publish   _shasum: '02d5ef5b81ae375e2ab12820cec48d1928cb05f9',
+21 silly publish   _shasum: '53431364de8436dcd2725f53926a16490d0b9eed',
 21 silly publish   _from: '.' }
 22 verbose getPublishConfig undefined
 23 silly mapToRegistry name hyperterm-oceanic-next
@@ -67,22 +72,22 @@
 29 silly publish uploading /Users/Mikeysax/.npm/hyperterm-oceanic-next/1.0.0/package.tgz
 30 verbose request uri https://registry.npmjs.org/hyperterm-oceanic-next
 31 verbose request sending authorization for write operation
-32 info attempt registry request try #1 at 3:14:18 PM
+32 info attempt registry request try #1 at 3:21:21 PM
 33 verbose request using bearer token for auth
-34 verbose request id ea61f16c6504ae5f
+34 verbose request id ce55041d94286b8f
 35 http request PUT https://registry.npmjs.org/hyperterm-oceanic-next
 36 http 403 https://registry.npmjs.org/hyperterm-oceanic-next
 37 verbose headers { 'content-type': 'application/json',
 37 verbose headers   'cache-control': 'max-age=300',
 37 verbose headers   'content-length': '116',
 37 verbose headers   'accept-ranges': 'bytes',
-37 verbose headers   date: 'Sun, 17 Jul 2016 19:14:20 GMT',
+37 verbose headers   date: 'Sun, 17 Jul 2016 19:21:23 GMT',
 37 verbose headers   via: '1.1 varnish',
 37 verbose headers   connection: 'keep-alive',
-37 verbose headers   'x-served-by': 'cache-jfk1033-JFK',
+37 verbose headers   'x-served-by': 'cache-jfk1031-JFK',
 37 verbose headers   'x-cache': 'MISS',
 37 verbose headers   'x-cache-hits': '0',
-37 verbose headers   'x-timer': 'S1468782860.282657,VS0,VE589',
+37 verbose headers   'x-timer': 'S1468783282.921756,VS0,VE382',
 37 verbose headers   vary: 'Accept-Encoding' }
 38 verbose request invalidating /Users/Mikeysax/.npm/registry.npmjs.org/hyperterm-oceanic-next on PUT
 39 error publish Failed PUT 403
@@ -103,7 +108,7 @@
 44 error Darwin 15.5.0
 45 error argv "/Users/Mikeysax/.nvm/versions/node/v6.3.0/bin/node" "/Users/Mikeysax/.nvm/versions/node/v6.3.0/bin/npm" "publish"
 46 error node v6.3.0
-47 error npm  v3.10.3
+47 error npm  v3.10.5
 48 error code E403
 49 error you do not have permission to publish "hyperterm-oceanic-next". Are you logged in as the correct user? : hyperterm-oceanic-next
 50 error If you need help, you may report this error at:
