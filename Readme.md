@@ -9,3 +9,4 @@ How to use
 Add `hyperterm-oceanic-next` to `plugins` in `~/.hyperterm.js`.
 
 [Hyperterm]: https://hyperterm.org/
+[Github]: https://github.com/Mikeysax/hyperterm-oceanic-next

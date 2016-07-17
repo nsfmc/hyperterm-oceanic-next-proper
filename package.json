@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Oceanic Next Theme For Hyper Term",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mikeysax/hyperterm-oceanic-next"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

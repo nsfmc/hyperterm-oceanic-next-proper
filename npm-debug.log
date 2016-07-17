@@ -1,0 +1,111 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/Mikeysax/.nvm/versions/node/v6.3.0/bin/node',
+1 verbose cli   '/Users/Mikeysax/.nvm/versions/node/v6.3.0/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.3
+3 info using node@v6.3.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/Mikeysax/Desktop/Code/hyperterm-oceanic-next',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/Mikeysax/.npm/hyperterm-oceanic-next/1.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/Mikeysax/.npm correctMkdir not in flight; initializing
+10 info lifecycle hyperterm-oceanic-next@1.0.0~prepublish: hyperterm-oceanic-next@1.0.0
+11 silly lifecycle hyperterm-oceanic-next@1.0.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/Mikeysax/.npm/hyperterm-oceanic-next/1.0.0/package.tgz',
+12 verbose tar pack   '/Users/Mikeysax/Desktop/Code/hyperterm-oceanic-next' ]
+13 verbose tarball /Users/Mikeysax/.npm/hyperterm-oceanic-next/1.0.0/package.tgz
+14 verbose folder /Users/Mikeysax/Desktop/Code/hyperterm-oceanic-next
+15 verbose addLocalTarball adding from inside cache /Users/Mikeysax/.npm/hyperterm-oceanic-next/1.0.0/package.tgz
+16 verbose correctMkdir /Users/Mikeysax/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd hyperterm-oceanic-next@1.0.0
+18 verbose afterAdd /Users/Mikeysax/.npm/hyperterm-oceanic-next/1.0.0/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/Mikeysax/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/Mikeysax/.npm/hyperterm-oceanic-next/1.0.0/package/package.json written
+21 silly publish { name: 'hyperterm-oceanic-next',
+21 silly publish   version: '1.0.0',
+21 silly publish   description: 'Oceanic Next Theme For Hyper Term',
+21 silly publish   main: 'index.js',
+21 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+21 silly publish   keywords:
+21 silly publish    [ 'hyperterm',
+21 silly publish      'oceanic',
+21 silly publish      'next',
+21 silly publish      'oceanic-next',
+21 silly publish      'theme',
+21 silly publish      'hyper',
+21 silly publish      'term' ],
+21 silly publish   author: { name: 'Michael Farrell' },
+21 silly publish   license: 'MIT',
+21 silly publish   readme: 'hyperterm-oceanic-next\n========================\n\n[Hyperterm] theme based on [Oceanic Next theme]\n\nHow to use\n----------\n\nAdd `hyperterm-oceanic-next` to `plugins` in `~/.hyperterm.js`.\n\n[Hyperterm]: https://hyperterm.org/\n',
+21 silly publish   readmeFilename: 'Readme.md',
+21 silly publish   gitHead: '23878b6888b6d002bb1351d8bbba59496e4d6dba',
+21 silly publish   _id: 'hyperterm-oceanic-next@1.0.0',
+21 silly publish   _shasum: '02d5ef5b81ae375e2ab12820cec48d1928cb05f9',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name hyperterm-oceanic-next
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'hyperterm-oceanic-next',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'hyperterm-oceanic-next',
+26 silly mapToRegistry   name: 'hyperterm-oceanic-next',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/hyperterm-oceanic-next
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/Mikeysax/.npm/hyperterm-oceanic-next/1.0.0/package.tgz
+30 verbose request uri https://registry.npmjs.org/hyperterm-oceanic-next
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 3:14:18 PM
+33 verbose request using bearer token for auth
+34 verbose request id ea61f16c6504ae5f
+35 http request PUT https://registry.npmjs.org/hyperterm-oceanic-next
+36 http 403 https://registry.npmjs.org/hyperterm-oceanic-next
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '116',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Sun, 17 Jul 2016 19:14:20 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-jfk1033-JFK',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1468782860.282657,VS0,VE589',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating /Users/Mikeysax/.npm/registry.npmjs.org/hyperterm-oceanic-next on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: you do not have permission to publish "hyperterm-oceanic-next". Are you logged in as the correct user? : hyperterm-oceanic-next
+40 verbose stack     at makeError (/Users/Mikeysax/.nvm/versions/node/v6.3.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/Users/Mikeysax/.nvm/versions/node/v6.3.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+40 verbose stack     at Request._callback (/Users/Mikeysax/.nvm/versions/node/v6.3.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+40 verbose stack     at Request.self.callback (/Users/Mikeysax/.nvm/versions/node/v6.3.0/lib/node_modules/npm/node_modules/request/request.js:200:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (/Users/Mikeysax/.nvm/versions/node/v6.3.0/lib/node_modules/npm/node_modules/request/request.js:1067:10)
+40 verbose stack     at emitOne (events.js:101:20)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/Users/Mikeysax/.nvm/versions/node/v6.3.0/lib/node_modules/npm/node_modules/request/request.js:988:12)
+41 verbose statusCode 403
+42 verbose pkgid hyperterm-oceanic-next
+43 verbose cwd /Users/Mikeysax/Desktop/Code/hyperterm-oceanic-next
+44 error Darwin 15.5.0
+45 error argv "/Users/Mikeysax/.nvm/versions/node/v6.3.0/bin/node" "/Users/Mikeysax/.nvm/versions/node/v6.3.0/bin/npm" "publish"
+46 error node v6.3.0
+47 error npm  v3.10.3
+48 error code E403
+49 error you do not have permission to publish "hyperterm-oceanic-next". Are you logged in as the correct user? : hyperterm-oceanic-next
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
